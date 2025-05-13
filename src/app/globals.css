@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "tailwindcss-animated";
+
+@theme {
+  /* ... */
+  --color-primary: #fd7922;
+  --color-secondary: #fff2e6;
+  --color-tertiary: #8d6e63;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
