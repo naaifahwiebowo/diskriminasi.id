@@ -37,8 +37,15 @@ export default function Navbar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <Link href="/edukasi" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
-                    Edukasi
+                  <Link href="/tentang-kami" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
+                    Tentang Kami
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link href="/tentang-diskriminasi" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
+                    Tentang Diskriminasi
                   </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
@@ -51,15 +58,8 @@ export default function Navbar() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <Link href="/about" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
-                    Tentang Kami
-                  </Link>
-                </NavigationMenuLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuLink asChild>
-                  <Link href="/tentang-diskriminasi" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
-                    Tentang Diskriminasi
+                  <Link href="/edukasi" className="text-primary px-4 py-2 font-semibold hover:text-[#F5995C]">
+                    Edukasi
                   </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>

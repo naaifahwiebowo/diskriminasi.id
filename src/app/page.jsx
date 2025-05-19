@@ -79,6 +79,21 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col p-8 w-full mt-10 pb-20 animate-fade animate-once">
+          <div className="flex justify-center flex-col gap-2 max-w-xl">
+            <h1 className="text-4xl text-primary font-medium ">Panduan Penggunaan Website</h1>
+          </div>
+          <div className="w-full grid gap-10 grid-cols-1 place-items-center mt-10">
+            {/* Pengembang 1 */}
+            <div className="flex flex-col  items-center max-w-1xl text-center gap-10">
+              <Image src="/qr.jpg" alt="hero" width={330} height={500} />
+              <div className="flex">
+                <h1 className="text-2xl text-primary font-medium">Scan QR Untuk panduan penggunaan</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
